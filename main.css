@@ -1,0 +1,9 @@
+body {
+  background-color: #FFF !important;
+}
+
+img {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+}

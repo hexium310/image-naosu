@@ -1,0 +1,17 @@
+{
+  "name": "画像の配置を戻すやつ",
+  "version": "0.1",
+  "manifest_version": 2,
+  "description": "画像を前みたいに白背景左上寄せに戻すよ",
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*/*.gif",
+        "*://*/*.png",
+        "*://*/*.jpg",
+        "*://*/*.jpg:orig"
+      ],
+      "css": ["main.css"]
+    }
+  ]
+}
