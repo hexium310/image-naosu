@@ -11,7 +11,8 @@
         "*://*/*.png",
         "*://*/*.png:orig",
         "*://*/*.jpg",
-        "*://*/*.jpg:orig"
+        "*://*/*.jpg:orig",
+        "*://pbs.twimg.com/profile_banners/*"
       ],
       "css": ["main.css"]
     }
